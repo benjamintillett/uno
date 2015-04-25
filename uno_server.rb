@@ -1,9 +1,9 @@
-require 'sinatra'
+require "sinatra/base"
 require 'json'
 
 
 
-class UnoServer
+class UnoBrain
 	attr_reader :deck, :pool, :hands, :number_of_hands
 
 	MAX_HANDS = 4 
